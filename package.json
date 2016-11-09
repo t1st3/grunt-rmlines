@@ -1,0 +1,52 @@
+{
+  "name": "grunt-rmlines",
+  "version": "0.1.0",
+  "description": "My hunky-dory module",
+  "license": "MIT",
+  "repository": "t1st3/grunt-rmlines",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo tasks/*.js test.js && grunt && mocha",
+    "coverage": "grunt && nyc --reporter=lcov --reporter=text-lcov npm test",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "files": [
+    "tasks"
+  ],
+  "keywords": [
+    "gruntplugin",
+    "line",
+    "remove"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.2",
+    "rmlines": "^0.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.14",
+    "grunt": "^1.0.1",
+    "mocha": "^3.1.2",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nyc": "^8.4.0",
+    "xo": "*"
+  },
+  "clinton": {
+    "rules": {
+      "ava": false
+    }
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
