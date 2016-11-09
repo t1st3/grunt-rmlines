@@ -4,7 +4,7 @@
 
 Thin wrapper around [`rmlines`](https://github.com/t1st3/rmlines) to make it a Grunt plugin.
 
-Also available as a [gulp](https://github.com/t1st3/gulp-rmlines) plugin.
+Also available as a [gulp plugin](https://github.com/t1st3/gulp-rmlines).
 
 
 ## Install
