@@ -2,21 +2,21 @@
 
 'use strict';
 
-var strictEqual = require('assert').strictEqual;
-var grunt = require('grunt');
+const strictEqual = require('assert').strictEqual;
+const grunt = require('grunt');
 
-var tmp = 'tmp/';
-var fixtures = 'fixtures/';
+const tmp = 'tmp/';
+const fixtures = 'fixtures/';
 
-describe('grunt-rmlines', function () {
-	var files = [
+describe('grunt-rmlines', () => {
+	const files = [
 		''
 	];
 
-	files.forEach(function (file) {
-		it(file + 'initial.txt', function (done) {
-			var actual = grunt.file.read(tmp + file + 'initial.txt');
-			var expected = grunt.file.read(fixtures + file + 'expected.txt');
+	files.forEach(file => {
+		it(file + 'initial.txt', done => {
+			const actual = grunt.file.read(tmp + file + 'initial.txt');
+			const expected = grunt.file.read(fixtures + file + 'expected.txt');
 			strictEqual(actual, expected);
 			done();
 		});
