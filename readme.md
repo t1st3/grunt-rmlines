@@ -1,5 +1,7 @@
 # grunt-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/grunt-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/grunt-rmlines) [![Coverage Status](https://coveralls.io/repos/github/t1st3/grunt-rmlines/badge.svg?branch=master)](https://coveralls.io/github/t1st3/grunt-rmlines?branch=master)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/grunt-rmlines.svg)](https://greenkeeper.io/)
+
 > A line-remover plugin for [`Grunt`](http://gruntjs.com/)
 
 Thin wrapper around [`rmlines`](https://github.com/t1st3/rmlines) to make it a Grunt plugin.
