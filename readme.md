@@ -1,4 +1,4 @@
-# grunt-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/grunt-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/grunt-rmlines) [![Coverage Status](https://coveralls.io/repos/github/t1st3/grunt-rmlines/badge.svg?branch=master)](https://coveralls.io/github/t1st3/grunt-rmlines?branch=master)
+# grunt-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/grunt-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/grunt-rmlines) [![codecov](https://codecov.io/gh/t1st3/grunt-rmlines/badge.svg?branch=master)](https://codecov.io/gh/t1st3/grunt-rmlinesn?branch=master)
 
 > A line-remover plugin for [`Grunt`](http://gruntjs.com/)
 
