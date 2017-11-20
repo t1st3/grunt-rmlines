@@ -1,4 +1,4 @@
-# grunt-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/grunt-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/grunt-rmlines) [![codecov](https://codecov.io/gh/t1st3/grunt-rmlines/badge.svg?branch=master)](https://codecov.io/gh/t1st3/grunt-rmlinesn?branch=master)
+# grunt-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/grunt-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/grunt-rmlines) [![codecov](https://codecov.io/gh/t1st3/grunt-rmlines/badge.svg?branch=master)](https://codecov.io/gh/t1st3/grunt-rmlines?branch=master)
 
 > A line-remover plugin for [`Grunt`](http://gruntjs.com/)
 
@@ -48,6 +48,7 @@ module.exports = function (grunt) {
 ## Options
 
 See [`rmlines`'s options](https://github.com/t1st3/rmlines#options), which are all supported.
+
 
 ## Related
 

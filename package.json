@@ -15,8 +15,8 @@
   "scripts": {
     "test": "xo tasks/*.js test.js && grunt && mocha",
     "coverage": "grunt && nyc --reporter=lcov --reporter=text-lcov npm test",
-    "precoveralls": "npm run coverage",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "precodecov": "npm run coverage",
+    "codecov": "cat coverage/lcov.info | ./node_modules/.bin/codecov"
   },
   "files": [
     "tasks"
