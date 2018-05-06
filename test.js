@@ -2,7 +2,7 @@
 
 'use strict';
 
-const strictEqual = require('assert').strictEqual;
+const {strictEqual} = require('assert');
 const grunt = require('grunt');
 
 const tmp = 'tmp/';
