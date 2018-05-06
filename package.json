@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "concat-stream": "^1.6.2",
-    "rmlines": "^0.2.0"
+    "rmlines": "^1.0.0"
   },
   "devDependencies": {
     "codecov": "^3.0.1",
